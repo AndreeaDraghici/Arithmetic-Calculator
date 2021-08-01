@@ -36,7 +36,7 @@ Here, check if two numbers are equal or different:
 
 ![ResultCompare](https://user-images.githubusercontent.com/72825756/127770585-cc20485e-a9e2-4bac-bcc3-d3622b5ad1fe.JPG)
 ------------------------
-Now, if I want to compare other two numbers, I clicked on the "Resel All" button:
+Now, if I want to compare other two numbers, I clicked on the "Reset All" button:
 
 ![ResetCompare](https://user-images.githubusercontent.com/72825756/127770726-fcb6e912-129e-4e0b-9ac4-ab0107404eed.JPG)
 ------------------------
