@@ -30,11 +30,12 @@ Division operation:
 
 If you clicked on the " click to compare" button, will appear a second GUI interface for compare two numbers
 
-![GUICompare](https://user-images.githubusercontent.com/72825756/127770293-333cf556-dc94-4cb1-947a-1045c881e6fe.JPG)
+![CompareGUI](https://user-images.githubusercontent.com/72825756/127770570-81a8d427-db48-4f61-8b65-4addba0a4afd.JPG)
 
 Here, check if two numbers are equal or different
 
-![ResultCompare](https://user-images.githubusercontent.com/72825756/127770318-fadc71b4-5cff-4e23-aead-f46335998352.JPG)
+![ResultCompare](https://user-images.githubusercontent.com/72825756/127770585-cc20485e-a9e2-4bac-bcc3-d3622b5ad1fe.JPG)
+
 
 
 
