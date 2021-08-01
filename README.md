@@ -5,7 +5,8 @@ Arithmetic calculator -> using Java GUI
 Make a arithmetic calculator using Java Swing in Eclipse IDE. This calculator performs a simple arithmetic operations, such as addition, difference, multiplication, division.\\
 We also find an option to check compare two numbers.
 
-![GUICalculator](https://user-images.githubusercontent.com/72825756/127770220-40bab869-1a41-43ad-b963-008b65590145.JPG)
+![GUICalculator](https://user-images.githubusercontent.com/72825756/127770505-98064fbd-169a-4be8-abe3-bad8d87d52af.JPG)
+---------------------------------------------------------------------------------------------------------------------------
 
 Addition operation:
 
