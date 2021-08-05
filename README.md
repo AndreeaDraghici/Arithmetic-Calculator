@@ -1,5 +1,5 @@
 # Arithmetic-Calculator
-Arithmetic calculator -> using Java GUI
+Arithmetic calculator -> using Java Swing GUI
 ----------------------------------------------
 
 Make a arithmetic calculator using Java Swing in Eclipse IDE. This calculator performs a simple arithmetic operations, such as addition, difference, multiplication, division.\\
