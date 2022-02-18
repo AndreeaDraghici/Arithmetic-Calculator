@@ -98,17 +98,15 @@ public class Calculator {
 		btnMultiply.setForeground(new Color(0, 0, 0));
 		btnMultiply.setFont(new Font("Times New Roman", Font.BOLD, 13));
 		btnMultiply.setBackground(new Color(153, 0, 255));
-		btnMultiply.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
-				int num1= Integer.parseInt(txtNumber1.getText());
-				int num2= Integer.parseInt(txtNumber2.getText());
-				int result=num1*num2;
-				txtResult.setText(Integer.toString(result));
-				
-				
-					
-			}
+		btnMultiply.addActionListener(e -> {
+
+			int num1= Integer.parseInt(txtNumber1.getText());
+			int num2= Integer.parseInt(txtNumber2.getText());
+			int result=num1*num2;
+			txtResult.setText(Integer.toString(result));
+
+
+
 		});
 		btnMultiply.setBounds(477, 136, 122, 31);
 		frame.getContentPane().add(btnMultiply);
@@ -116,15 +114,13 @@ public class Calculator {
 		JButton btnSubstraction = new JButton("Substraction");
 		btnSubstraction.setFont(new Font("Times New Roman", Font.BOLD, 13));
 		btnSubstraction.setBackground(new Color(153, 0, 255));
-		btnSubstraction.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
-				int num1= Integer.parseInt(txtNumber1.getText());
-				int num2= Integer.parseInt(txtNumber2.getText());
-				int result=num1-num2;
-				txtResult.setText(Integer.toString(result));
-				
-			}
+		btnSubstraction.addActionListener(e -> {
+
+			int num1= Integer.parseInt(txtNumber1.getText());
+			int num2= Integer.parseInt(txtNumber2.getText());
+			int result=num1-num2;
+			txtResult.setText(Integer.toString(result));
+
 		});
 		btnSubstraction.setBounds(477, 95, 122, 31);
 		frame.getContentPane().add(btnSubstraction);
@@ -133,14 +129,12 @@ public class Calculator {
 		btnDivision.setForeground(new Color(0, 0, 0));
 		btnDivision.setFont(new Font("Times New Roman", Font.BOLD, 13));
 		btnDivision.setBackground(new Color(153, 0, 255));
-		btnDivision.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				int num1= Integer.parseInt(txtNumber1.getText());
-				int num2= Integer.parseInt(txtNumber2.getText());
-				int result=num1/num2;
-				txtResult.setText(Integer.toString(result));
-				
-			}
+		btnDivision.addActionListener(e -> {
+			int num1= Integer.parseInt(txtNumber1.getText());
+			int num2= Integer.parseInt(txtNumber2.getText());
+			int result=num1/num2;
+			txtResult.setText(Integer.toString(result));
+
 		});
 		btnDivision.setBounds(477, 177, 122, 31);
 		frame.getContentPane().add(btnDivision);
